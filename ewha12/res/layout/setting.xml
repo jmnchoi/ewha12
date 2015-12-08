@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_title"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/title_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/title_setting" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_setting_autosave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_setting"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/btn_autosave" />
+
+    <CheckBox
+        android:id="@+id/checkbox_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignRight="@id/imgbtn_setting_autosave"
+        android:layout_alignTop="@id/imgbtn_setting_autosave"
+        android:layout_below="@id/title_setting"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_setting_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgbtn_setting_autosave"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/btn_history" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_setting_developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgbtn_setting_history"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/btn_developer" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_setting_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgbtn_setting_developer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/btn_version" />
+
+</RelativeLayout>
